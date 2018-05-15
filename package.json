@@ -1,0 +1,23 @@
+{
+  "name": "sr-event-page",
+  "version": "1.0.0",
+  "description": "SpareRoom Event Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ajdavey8/SR-event-page.git"
+  },
+  "keywords": [
+    "event",
+    "page"
+  ],
+  "author": "Andrew Davey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajdavey8/SR-event-page/issues"
+  },
+  "homepage": "https://github.com/ajdavey8/SR-event-page#readme"
+}
