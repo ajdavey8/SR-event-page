@@ -13,8 +13,23 @@ describe(BookingForm, () => {
         expect(tree).toMatchSnapshot();
     });
 
-    it('renders a checkbox for I need a room and is not selected', () => {
+    it('renders a radio Option for I need a room', () => {
         const radioOption = wrapper.find('#need').length;
         expect(radioOption).toEqual(1);
+    });
+
+    it('renders a radio Option for I have a room', () => {
+        const radioOption = wrapper.find('#have').length;
+        expect(radioOption).toEqual(1);
+    });
+
+    it('renders a name input', () => {
+        const textInput = wrapper.find('#username').length;
+        expect(textInput).toEqual(1);
+    });
+
+    it('renders a email input', () => {
+        const textInput = wrapper.find('#email').length;
+        expect(textInput).toEqual(1);
     });
 });
