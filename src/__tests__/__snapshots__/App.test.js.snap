@@ -5,6 +5,12 @@ exports[`App renders and matches snapshot 1`] = `
   className="App"
 >
   <div>
+    <img
+      alt="SpareRoom Logo"
+      src="../images/logo.pngo"
+    />
+  </div>
+  <div>
     <form>
       <h2>
         Reserve Your Place Now

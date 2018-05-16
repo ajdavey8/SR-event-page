@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders the Header and matches the snapshot 1`] = `
+<div>
+  <img
+    alt="SpareRoom Logo"
+    src="../images/logo.pngo"
+  />
+</div>
+`;

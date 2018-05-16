@@ -1,0 +1,43 @@
+.Header {
+    width: 100%;
+    
+}
+
+.Header img {
+   margin-top: 20px;
+   margin-left: 20px;
+   margin-bottom: 10px;
+}
+
+.row {
+    max-width: 100vw;
+    margin: 0 auto;
+  }
+
+.top-nav-bar {
+    background-color: #005480;
+    padding: 10px 0;
+}
+
+.top-nav-bar a {
+    font-size: 16px;
+    text-decoration: none;    
+    color: #fff;
+    margin-left: 10px;
+}
+
+.top-nav-bar a:first-child {
+    margin-left: 20px;
+}
+
+.bottom-nav-bar {
+    padding: 10px 0;
+    font-size: 16px;
+    background-color: #F5F5F5;
+}
+
+.bottom-nav-bar a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #005480;
+}
