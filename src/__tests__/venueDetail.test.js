@@ -7,10 +7,12 @@ describe(VenueDetail, () => {
         "areas_covered":"Brooklyn, Williamsburg, Queens, Jamaica, Astoria, Bronx, Long Island.",
         "location":{
             "address":{
-                "state":"New York"
+                "state":"New York",
+                "geoloc": "40.7134658,-73.9415119"
             }
         },
-        "directions":"L train to Grand Avenue. Walk 2 blocks north on Bushwick Avenue, bar is on the left on the corner of Bushwick and Ainslie."
+        "directions":"L train to Grand Avenue. Walk 2 blocks north on Bushwick Avenue, bar is on the left on the corner of Bushwick and Ainslie.",
+        "transport_station": "Grand Street (L train)"
     }
 
     const wrapper = shallow(<VenueDetail venue={data}/>);
@@ -25,5 +27,13 @@ describe(VenueDetail, () => {
 
     it('renders the venue directions', () => {
         expect(wrapper.find('div.directions').text()).toContain("L train to Grand Avenue. Walk 2 blocks north on Bushwick Avenue, bar is on the left on the corner of Bushwick and Ainslie.");
+    })
+
+    it('renders the nearest subway', () => {
+        expect(wrapper.find('div.subway').text()).toContain("Grand Street (L train)");
+    })
+
+    it('renders the map element', () => {
+        expect(wrapper.find('div.big-map').length).toEqual(1);
     })
 })
