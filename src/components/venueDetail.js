@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import GoogleMap from './googleMap';
+import '../css/venueDetail.css';
 
 export default class VenueDetail extends Component {
     render() {

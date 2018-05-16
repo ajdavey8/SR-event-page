@@ -25,8 +25,8 @@ export default class EventDetail extends Component {
                 <img src={require('../images/bar-photo.jpg')} alt="Photo of a bar" />
             </div>
             <div className="details">
-                <h3><b>{this.props.event.location.name}</b></h3>
-                <div>
+                <a><b>{this.props.event.location.name}</b></a>
+                <div className="date">
                     {this.formatDate(datetime)},
                     <br></br>
                     {start_time}:00 {am_pm} - {end_time}:00 {am_pm}

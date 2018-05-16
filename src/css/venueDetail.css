@@ -1,0 +1,15 @@
+.venue-detail {
+    display: block;
+    float: right;
+    position: absolute;
+
+}
+
+.big-map {
+    display:block;
+    position:absolute;
+    float:left;
+    width: 400px;
+    height: 10px;
+    z-index: 1000;
+}

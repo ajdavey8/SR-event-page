@@ -22,6 +22,6 @@ export default class GoogleMap extends Component {
   }
 
   render() {
-    return <div ref="map" className="map" style={{ height: '30vh', width: '50%' }}> </div>
+    return <div ref="map" className="map" > </div>
   }
 }
