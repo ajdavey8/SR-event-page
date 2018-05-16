@@ -2,6 +2,11 @@
     display: block;
     float: left;
     width: 45%;
+    margin-left: 20px;
+}
+
+.venue-detail p {
+    margin: 0;
 }
 
 .big-map {

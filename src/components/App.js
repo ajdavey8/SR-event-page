@@ -24,6 +24,9 @@ class App extends Component {
                 <BookingForm/>
                 <VenueDetail venue={this.state.event} />
             </div>
+            <div className="footer">
+            </div>
+
         </div>
         )
     }

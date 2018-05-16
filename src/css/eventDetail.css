@@ -39,8 +39,9 @@
     background-color: #fff;
     left: 70px;
     top: 43px;
-    width:300px;
+    width:290px;
     z-index: 1000;
+    padding-left: 10px;
 }
 
 .details a {
@@ -53,8 +54,8 @@
     position:absolute;
     float:left;
     left: 35px;
-    top: 50px;
+    top: 48px;
     width: 300px;
-    height: 244px;
+    height: 253px;
     z-index: 1000;
 }
