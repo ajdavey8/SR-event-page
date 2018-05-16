@@ -1,6 +1,6 @@
 {
     "event": {
-      "areas-covered": "Brooklyn, Williamsburg, Queens, Jamaica, Astoria, Bronx, Long Island.",
+      "areas_covered": "Brooklyn, Williamsburg, Queens, Jamaica, Astoria, Bronx, Long Island.",
       "date_time": {
         "am_pm": "pm",
         "clock24": 0,
