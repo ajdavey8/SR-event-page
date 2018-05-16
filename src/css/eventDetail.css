@@ -1,0 +1,31 @@
+.event-details {
+    display: block;
+    margin-left: 30px;
+}
+
+.title {
+    color: #003d5d;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+}
+
+.title p {
+    margin: 0;
+}
+
+.bar-photo {
+    margin-right: 30px;
+    display: inline-block;
+    height: 320px;
+    overflow: hidden;
+}
+
+.bar-photo img {
+    width: 100%;
+    position: relative;
+    top: 45%;
+    transform: translateY(-60%);
+}

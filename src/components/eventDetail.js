@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import BarPhoto from '../images/bar-photo.jpg';
 import GoogleMap from './googleMap';
+import '../css/eventDetail.css';
 
 export default class EventDetail extends Component {
 
@@ -18,16 +19,16 @@ export default class EventDetail extends Component {
         
         return (
         <div className="event-details">
-            <div className="Title">
-                <h2><b>SpeedRoomMating Brooklyn @ {this.props.event.location.name}</b></h2>
+            <div className="title">
+                <p><b>SpeedRoomMating Brooklyn @ {this.props.event.location.name}</b></p>
             </div>
-            <div>
-                <img src={BarPhoto} alt="Photo of a bar" style={{ width: '100%', height: "300px"}}/>
+            <div className="bar-photo">
+                <img src={BarPhoto} alt="Photo of a bar" />
             </div>
             <div className="details">
                 <h3><b>{this.props.event.location.name}</b></h3>
                 <div>
-                    {this.formatDate(datetime)}
+                    {this.formatDate(datetime)},
                     <br></br>
                     {start_time}:00 {am_pm} - {end_time}:00 {am_pm}
                 </div>

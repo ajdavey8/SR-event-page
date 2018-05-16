@@ -6,7 +6,7 @@ export default class BookingForm extends Component {
 
         <div className="booking-form">
             <form>
-                <h2>Reserve Your Place Now</h2>
+                <p><b>Reserve Your Place Now</b></p>
                 <input type="radio" id="need" name="RoomOption1" value="need"/>
                 <label> I need a room <b>Places available</b> </label>
                 <br></br>
