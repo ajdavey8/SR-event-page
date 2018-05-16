@@ -5,7 +5,7 @@ import '../css/venueDetail.css';
 export default class VenueDetail extends Component {
     render() {
 
-        const { areas_covered, directions, transport_station} = this.props.venue.location
+        const { directions, transport_station } = this.props.venue.location
         const latlng = this.props.venue.location.address.geoloc.split(',');
         const lat = parseFloat(latlng[0]);
         const lng = parseFloat(latlng[1]);

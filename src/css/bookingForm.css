@@ -1,3 +1,37 @@
 .booking-form {
     margin-left: 30px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border: 1px solid #b3b0b0;
+    width:45%;
 }
+
+.booking-form p {
+    margin: 0;
+}
+
+.reservation {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#need {
+    margin-bottom: 10px;
+}
+
+.room-options b {
+    margin-left: 20px;
+    color: #14c7f5;
+    
+}
+
+.room-options:after {
+    display: block;
+    height: 1px;
+    background-color: #b3b0b0;
+    content: " ";
+    width: 95%;
+    margin: 10px 0;
+
+  }

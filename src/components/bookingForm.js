@@ -6,21 +6,27 @@ export default class BookingForm extends Component {
 
         <div className="booking-form">
             <form>
+                <div className="reservation">
                 <p><b>Reserve Your Place Now</b></p>
+                </div>
+                <div className="room-options">
                 <input type="radio" id="need" name="RoomOption1" value="need"/>
                 <label> I need a room <b>Places available</b> </label>
                 <br></br>
                 <input type="radio" id="have" name="RoomOption2" value="have"/>
                 <label> I have a room <b>Places available</b> </label>
-                <br></br>
-                <b>Name</b>
+                </div>
+                <div className="name">
+                <a><b>Name</b></a>
                 <br></br>
                 <input type="text" id="username" name="name" placeholder="Please Enter Your Name"/>
-                <br></br>
-                <b>Email</b>
+                </div>
+                <div className="email">
+                
+                <a><b>Email</b></a>
                 <br></br>
                 <input type="text" id="email" name="email" placeholder="Please Enter Your Email Address"/>
-                <br></br>
+                </div>
                 <p>
                     We won't give your email address to anyone else.<br></br>
                     See our Privacy Policy for more details.
