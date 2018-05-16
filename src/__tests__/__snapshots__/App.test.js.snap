@@ -74,5 +74,15 @@ exports[`App renders and matches snapshot 1`] = `
       </p>
     </form>
   </div>
+  <div
+    style={
+      Object {
+        "height": "30vh",
+        "width": "50%",
+      }
+    }
+  >
+     
+  </div>
 </div>
 `;

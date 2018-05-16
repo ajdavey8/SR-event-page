@@ -1,4 +1,11 @@
 const webpack = require('webpack');
+const dotenv = require('dotenv-webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+require('dotenv').config();
+const api_key = process.env.GOOGLE_API_KEY;
+
+console.log(api_key);
 
 module.exports = {
   entry: [
@@ -31,7 +38,15 @@ module.exports = {
     hot: true
   },
   plugins: [
-    new webpack.HotModuleReplacementPlugin()
+    new webpack.HotModuleReplacementPlugin(),
+    new dotenv(),
+    new HtmlWebpackPlugin({
+      inject: false,
+      template: './index.html',
+
+      apiUrl: `https://maps.googleapis.com/maps/api/js?key=${api_key}`,
+
+    })
   ],
   mode: "none",
 };
