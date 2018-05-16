@@ -3,6 +3,7 @@ import { hot } from 'react-hot-loader';
 import Header from './header';
 import BookingForm from './bookingForm';
 import EventDetail from './eventDetail';
+import VenueDetail from './venueDetail';
 import '../css/App.css';
 import data from '../data/event.json';
 
@@ -21,6 +22,7 @@ class App extends Component {
             <div className="container">
                 <EventDetail event={this.state.event} />
                 <BookingForm/>
+                <VenueDetail venue={this.state.event} />
             </div>
         </div>
         )
