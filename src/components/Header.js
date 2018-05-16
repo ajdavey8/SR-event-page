@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from '../images/logo.png';
 import '../css/header.css'
 
 export default class Header extends Component {
@@ -7,14 +6,14 @@ export default class Header extends Component {
         return (
             <div className="header row">
                 <div className="logo">
-                 <img src={logo} alt="SpareRoom Logo" />
+                 <img src={require('../images/logo.png')} alt="SpareRoom Logo" />
                 </div>
                 <div className="top-nav-bar row">
-                    <a href="#"><b>Home</b></a>
-                    <a href="#"><b>Events</b></a>
+                    <a src=""><b>Home</b></a>
+                    <a src=""><b>Events</b></a>
                 </div>
                 <div className="bottom-nav-bar">
-                    <a href="#">Event</a>
+                    <a src="#">Event</a>
                 </div>
             </div>
         )

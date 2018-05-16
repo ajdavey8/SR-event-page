@@ -53,8 +53,7 @@
   "jest": {
     "setupTestFrameworkScriptFile": "./src/setupTests.js",
     "moduleNameMapper": {
-      "\\.(css|less)$": "identity-obj-proxy",
-      "\\.(png|jpg)$": "<rootDir>/__mocks__/fileMock.js"
+      "\\.(css|less|png|jpg)$": "identity-obj-proxy"
     }
   }
 }

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import BarPhoto from '../images/bar-photo.jpg';
 import GoogleMap from './googleMap';
 import '../css/eventDetail.css';
 
@@ -23,7 +22,7 @@ export default class EventDetail extends Component {
                 <p><b>SpeedRoomMating Brooklyn @ {this.props.event.location.name}</b></p>
             </div>
             <div className="bar-photo">
-                <img src={BarPhoto} alt="Photo of a bar" />
+                <img src={require('../images/bar-photo.jpg')} alt="Photo of a bar" />
             </div>
             <div className="details">
                 <h3><b>{this.props.event.location.name}</b></h3>

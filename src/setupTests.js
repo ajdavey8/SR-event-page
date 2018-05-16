@@ -7,4 +7,11 @@ window.google = {
     maps: {
       Map:  class {}
     }
-  };
+  }
+
+window.google = {
+    maps: {
+      Maker: class {}
+    }
+};
+
