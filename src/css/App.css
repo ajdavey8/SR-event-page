@@ -2,12 +2,14 @@
     font-family: Arial, Helvetica, sans-serif;
     color: #5E5E5E;
     background-color: #f5f5f5;
+    float:left;
 }
 
 .container {
     max-width: 80%;
     margin-left: 10%;
     background-color: #fff;
+    float:left;
 }
 
 body {

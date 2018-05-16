@@ -9,11 +9,11 @@ export default class Header extends Component {
                  <img src={require('../images/logo.png')} alt="SpareRoom Logo" />
                 </div>
                 <div className="top-nav-bar row">
-                    <a src=""><b>Home</b></a>
-                    <a src=""><b>Events</b></a>
+                    <a href="#"><b>Home</b></a>
+                    <a href="#"><b>Events</b></a>
                 </div>
                 <div className="bottom-nav-bar">
-                    <a src="#">Event</a>
+                    <a href="#">Event</a>
                 </div>
             </div>
         )
