@@ -8,12 +8,13 @@ import '../css/App.css';
 class App extends Component {
     render() {
         return (
-         <div className="App" >
+        <div className="App" >
             <Header/>
-            <BookingForm/>
-            <GoogleMap/>
-            
-         </div>
+            <div className="container">
+                <BookingForm/>
+                <GoogleMap/>    
+            </div>
+        </div>
         )
     }
 }

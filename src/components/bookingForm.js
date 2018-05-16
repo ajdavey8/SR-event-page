@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-
+import '../css/bookingForm.css';
 export default class BookingForm extends Component {
     render() {
         return(
 
-        <div>
+        <div className="booking-form">
             <form>
                 <h2>Reserve Your Place Now</h2>
                 <input type="radio" id="need" name="RoomOption1" value="need"/>

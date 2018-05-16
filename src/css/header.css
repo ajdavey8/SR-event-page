@@ -1,18 +1,28 @@
-.Header {
+.header {
     width: 100%;
-    
 }
 
-.Header img {
-   margin-top: 20px;
-   margin-left: 20px;
-   margin-bottom: 10px;
+.logo {
+   background-color: #fff;
+   padding-top: 20px;
+   padding-left: 150px;
+   padding-bottom: 10px;
 }
 
 .row {
     max-width: 100vw;
     margin: 0 auto;
+    
   }
+
+.row:before,
+.row:after {
+    content:"";
+    display:table;
+}
+.row:after {
+    clear:both;
+}
 
 .top-nav-bar {
     background-color: #005480;
@@ -27,7 +37,7 @@
 }
 
 .top-nav-bar a:first-child {
-    margin-left: 20px;
+    margin-left: 150px;
 }
 
 .bottom-nav-bar {
@@ -37,7 +47,7 @@
 }
 
 .bottom-nav-bar a {
-    margin-left: 20px;
+    margin-left: 150px;
     text-decoration: none;
     color: #005480;
 }
