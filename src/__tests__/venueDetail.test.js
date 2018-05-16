@@ -9,10 +9,10 @@ describe(VenueDetail, () => {
             "address":{
                 "state":"New York",
                 "geoloc": "40.7134658,-73.9415119"
-            }
-        },
-        "directions":"L train to Grand Avenue. Walk 2 blocks north on Bushwick Avenue, bar is on the left on the corner of Bushwick and Ainslie.",
-        "transport_station": "Grand Street (L train)"
+            },
+            "directions":"L train to Grand Avenue. Walk 2 blocks north on Bushwick Avenue, bar is on the left on the corner of Bushwick and Ainslie.",
+            "transport_station": "Grand Street (L train)"
+        }
     }
 
     const wrapper = shallow(<VenueDetail venue={data}/>);
