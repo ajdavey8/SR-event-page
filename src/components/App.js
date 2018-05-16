@@ -4,8 +4,16 @@ import Header from './Header';
 import BookingForm from './bookingForm';
 import GoogleMap from './googleMap';
 import '../css/App.css';
+import data from '../data/event.json';
 
 class App extends Component {
+    constructor(props) {
+        super(props);
+
+        this.state= {
+            event: data.event
+        };
+    }
     render() {
         return (
         <div className="App" >
