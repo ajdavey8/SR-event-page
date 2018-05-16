@@ -3,16 +3,25 @@ import React, { Component } from 'react';
 export default class GoogleMap extends Component {
 
   componentDidMount() {
-    new window.google.maps.Map(this.refs.map,{
-      zoom: 15,
-      center: {
-        lat: 40.7134658,
-        lng: -73.9415119
-      }
-    })
+
+    const latlng = {
+      lat: this.props.lat,
+      lng: this.props.lng
+    }
+ 
+      var map = new window.google.maps.Map(this.refs.map,{
+        center: latlng,
+        zoom: this.props.zoom
+    });
+
+    var marker = new window.google.maps.Marker({
+      postion: latlng,
+      map: map
+      
+    });
   }
 
   render() {
-    return <div ref="map" style={{ height: '30vh', width: '50%' }}> </div>
+    return <div ref="map" className="map" style={{ height: '30vh', width: '50%' }}> </div>
   }
 }
