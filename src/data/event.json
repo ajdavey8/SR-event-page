@@ -1,15 +1,15 @@
 {
     "event": {
       "areas-covered": "Brooklyn, Williamsburg, Queens, Jamaica, Astoria, Bronx, Long Island.",
-      "date-time": {
-        "am-pm": "pm",
+      "date_time": {
+        "am_pm": "pm",
         "clock24": 0,
         "datetime": "2017-06-27T19:00:00",
         "day": "tuesday",
         "day-short": "tues",
-        "end-time": "9",
+        "end_time": "9",
         "month": "june",
-        "start-time": "7"
+        "start_time": "7"
       },
       "location": {
         "address": {

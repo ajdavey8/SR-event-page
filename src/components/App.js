@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { hot } from 'react-hot-loader';
-import Header from './Header';
+import Header from './header';
 import BookingForm from './bookingForm';
 import GoogleMap from './googleMap';
+import EventDetail from './eventDetail';
 import '../css/App.css';
 import data from '../data/event.json';
 
@@ -19,6 +20,7 @@ class App extends Component {
         <div className="App" >
             <Header/>
             <div className="container">
+                <EventDetail event={this.state.event} />
                 <BookingForm/>
                 <GoogleMap/>    
             </div>
