@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 
 export default class VenueDetail extends Component {
     render() {
+
+        const { areas_covered, directions} = this.props.venue
+
         return (
             <div className="venue-detail">
                 <div className="people">
@@ -10,9 +13,12 @@ export default class VenueDetail extends Component {
                 </div>
                 <div className="areas">
                     <p>What areas does this event cover?</p>
-                    <p>{this.props.venue.areas_covered}</p>
+                    <p>{areas_covered}</p>
                 </div>
-
+                <div className="directions">
+                    <p>Veune Directions</p>
+                    <p>{directions}</p>
+                </div>
             </div>
         )
     }
